@@ -1,5 +1,5 @@
 from django.contrib import admin
-from Blog.models import Blog, Category
+from models import Blog, Category
 
 class BlogAdmin(admin.ModelAdmin):
     exclude = ['posted']
